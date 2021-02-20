@@ -1,0 +1,59 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>PVR</title>
+        <!-- Bootstrap -->
+        <link href="{% static 'bootstrap/css/bootstrap.css' %}" rel="stylesheet" type="text/css" />
+        <!-- Animate.css -->
+        <link href="{% static 'animate.css/animate.css' %}" rel="stylesheet" type="text/css" />
+        <!-- Font Awesome iconic font -->
+        <link href="{% static 'fontawesome/css/fontawesome-all.css' %}" rel="stylesheet" type="text/css" />
+        <!-- Magnific Popup -->
+        <link href="{% static 'magnific-popup/magnific-popup.css' %}" rel="stylesheet" type="text/css" />
+        <!-- Slick carousel -->
+        <link href="{% static 'slick/slick.css' %}" rel="stylesheet" type="text/css" />
+        <!-- Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Oswald:300,400,500,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+        <!-- Theme styles -->
+        <link href="{% static 'css/dot-icons.css' %}" rel="stylesheet" type="text/css">
+        <link href="{% static 'css/theme.css' %}" rel="stylesheet" type="text/css">
+    </head>
+    <body class="body">
+        <section class="section-long">
+            <div class="container">
+                <div class="status-entity">
+                    <div class="entity-icon">4<span class="text-theme">0</span>4</div>
+                    <h4 class="entity-title">Sorry!</h4>
+                    <p class="entity-text">It looks like this page no longer exists</p>
+                    <div class="entity-actions">
+                        <a class="btn btn-theme" href="{% url 'home' %}">Back To Homepage</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a class="scroll-top disabled" href="#"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
+       
+        <!-- jQuery library -->
+        <script src="{% static 'js/jquery-3.3.1.js' %}"></script>
+        <!-- Bootstrap -->
+        <script src="{% static 'bootstrap/js/bootstrap.js' %}"></script>
+        <!-- Paralax.js -->
+        <script src="{% static 'parallax.js/parallax.js' %}"></script>
+        <!-- Waypoints -->
+        <script src="{% static 'waypoints/jquery.waypoints.min.js' %}"></script>
+        <!-- Slick carousel -->
+        <script src="{% static 'slick/slick.min.js' %}"></script>
+        <!-- Magnific Popup -->
+        <script src="{% static 'magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+        <!-- Inits product scripts -->
+        <script src="{% static 'js/script.js' %}"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJ4Qy67ZAILavdLyYV2ZwlShd0VAqzRXA&callback=initMap"></script>
+        <script async defer src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/js/rating.js"></script>
+    </body>
+</html>

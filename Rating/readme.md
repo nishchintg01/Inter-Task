@@ -21,18 +21,19 @@ this Application is build with django 3.1 and python 3.9 in mind.
 
 ## Setup
 
-The first thing to do is to clone the repository:
+The first thing to do is to create a virtual environment:
+
+```sh
+$ python -m venv env_name
+$ cd env_name
+$ Scripts/activate
+```
+
+Now clone the remote repository in your virtual environment directory:
 
 ```sh
 $ git clone https://github.com/nishchintg01/Inter-Task.git
 $ cd Inter-Task/Rating
-```
-
-Create a virtual environment to install dependencies in and activate it:
-
-```sh
-$ python -m venv env_name
-$ env_name/Scripts/activate
 ```
 
 Then install the dependencies:

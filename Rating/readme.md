@@ -1,6 +1,6 @@
 # Introduction
 
-The goal of this project is to provide minimalistic django Movie project template that everyone can use, which allows basic functionalities such as adding movies to the database, User comment section, Rating system. The project user custom user authentication for creation and authentication of users. different tables have been created for the comments, rating and movie section.
+The goal of this project is to provide minimalistic django Movie project that everyone can use, which allows basic functionalities such as adding movies to the database, User comment section, Rating system. The project user custom user authentication for creation and authentication of users. different tables have been created for the comments, rating and movie section.
 
 this Application is build with django 3.1 and python 3.9 in mind.
 
@@ -24,8 +24,8 @@ this Application is build with django 3.1 and python 3.9 in mind.
 The first thing to do is to clone the repository:
 
 ```sh
-$ git clone https://github.com/gocardless/sample-django-app.git
-$ cd sample-django-app
+$ git clone https://github.com/nishchintg01/Inter-Task.git
+$ cd Inter-Task/Rating
 ```
 
 Create a virtual environment to install dependencies in and activate it:
